@@ -7,16 +7,17 @@ Auto-reload for express.
 
 ### Configure Express
 Add the following to your express app.
-
-    const express = require("express")
-    const app = express()
-    require('the-freshmaker')(app)
-
+```javascript
+const express = require("express")
+const app = express()
+// Require the-freshmaker and pass in the variable for your express app.
+require('the-freshmaker')(app)
+```
 ### HTML setup
 Add the following to webpages you want to restart when there is a change on the server.
-
-    <script src="/the-freshmaker-client.js" type="text/javascript"></script>
-    
+```html
+<script src="/the-freshmaker-client.js" type="text/javascript"></script>
+```
     
 ### Use nodemon to restart node when files change.
     
