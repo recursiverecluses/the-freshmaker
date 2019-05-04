@@ -5,7 +5,7 @@ Auto-reload for express.
 
     npm install the-freshmaker
 
-### Express setup
+### Configure Express
 Add the following to your express app.
 
     const express = require("express")
