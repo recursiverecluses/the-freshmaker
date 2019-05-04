@@ -1,6 +1,6 @@
 {
   "name": "the-freshmaker",
-  "version": "1.0.8",
+  "version": "1.0.7",
   "description": "Auto-reload for express.",
   "main": "the-freshmaker-server.js",
   "scripts": {
